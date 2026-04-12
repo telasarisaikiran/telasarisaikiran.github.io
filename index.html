@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sai Kiran Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Sai Kiran</h2>
+    <p>Mechanical Engineer</p>
+
+    <ul>
+        <li><a href="#home">Intro</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<div class="main">
+
+<section id="home">
+    <h1>Welcome! I'm Sai Kiran</h1>
+    <h2>M.Tech @ IIT Guwahati (Thermal & Fluid)</h2>
+    <p>I build solutions in CFD, Heat Transfer & Energy Systems</p>
+    <button onclick="scrollToSection('projects')">Explore My Work</button>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>FSI Models for Cavitation</h3>
+        <p>Analyzed cavitation and gas bubble dynamics using simulation</p>
+    </div>
+
+    <div class="card">
+        <h3>Diesel Engine CFD (ANSYS Forte)</h3>
+        <p>Achieved 3% deviation in peak pressure using combustion modeling</p>
+    </div>
+
+    <div class="card">
+        <h3>Biofuel Optimization</h3>
+        <p>Tested ethanol-butanol blends for emission reduction</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <p>Python | C | MATLAB</p>
+    <p>ANSYS | OpenFOAM</p>
+    <p>SolidWorks | CATIA | AutoCAD</p>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>Silver Medalist (B.Tech)</li>
+        <li>GATE 2025 AIR 2080</li>
+        <li>ECET Rank 33</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: telasarisai@gmail.com</p>
+    <p>GitHub: github.com/yourid</p>
+    <p>LinkedIn: linkedin.com/in/telasarisaikiran</p>
+</section>
+
+</div>
+
+<script>
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({behavior: "smooth"});
+}
+</script>
+
+</body>
+</html>
