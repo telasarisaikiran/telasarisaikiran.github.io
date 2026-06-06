@@ -1,84 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Sai Kiran Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telasari Sai Kiran</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-<div class="sidebar">
-    <h2>Sai Kiran</h2>
-    <p>Mechanical Engineer</p>
+    <!-- Sidebar -->
 
-    <ul>
-        <li><a href="#home">Intro</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</div>
+    <div class="sidebar">
 
-<div class="main">
+        <div class="profile">
 
-<section id="home">
-    <h1>Welcome! I'm Sai Kiran</h1>
-    <h2>M.Tech @ IIT Guwahati (Thermal & Fluid)</h2>
-    <p>I build solutions in CFD, Heat Transfer & Energy Systems</p>
-    <button onclick="scrollToSection('projects')">Explore My Work</button>
-</section>
+            <img src="images/profile.jpg" alt="Sai Kiran">
 
-<section id="projects">
-    <h2>Projects</h2>
+            <h2>Telasari Sai Kiran</h2>
 
-    <div class="card">
-        <h3>FSI Models for Cavitation</h3>
-        <p>Analyzed cavitation and gas bubble dynamics using simulation</p>
+            <p>M.Tech | IIT Guwahati</p>
+
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="#intro">
+                    <i class="fas fa-home"></i>
+                    Intro
+                </a>
+            </li>
+
+            <li>
+                <a href="#featured">
+                    <i class="fas fa-star"></i>
+                    Featured
+                </a>
+            </li>
+
+            <li>
+                <a href="#portfolio">
+                    <i class="fas fa-th"></i>
+                    Portfolio
+                </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    <i class="fas fa-user"></i>
+                    About Me
+                </a>
+            </li>
+
+            <li>
+                <a href="#achievements">
+                    <i class="fas fa-trophy"></i>
+                    Achievements
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fas fa-envelope"></i>
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="socials">
+
+            <a href="https://linkedin.com/in/telasarisaikiran" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/telasarisaikiran" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="mailto:telasarisaikiran53@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
     </div>
 
-    <div class="card">
-        <h3>Diesel Engine CFD (ANSYS Forte)</h3>
-        <p>Achieved 3% deviation in peak pressure using combustion modeling</p>
+    <!-- Main Content -->
+
+    <div class="content">
+
+        <!-- Intro Section -->
+
+        <section id="intro" class="hero">
+
+            <div class="overlay">
+
+                <h1>Welcome! I'm Telasari Sai Kiran</h1>
+
+                <h2>
+                    M.Tech Student<br>
+                    Fluid & Thermal Engineering<br>
+                    IIT Guwahati
+                </h2>
+
+                <p>
+                    Exploring Fluid Flow, Heat Transfer,
+                    Combustion and Multiphase Engineering
+                    through Simulation and Research.
+                </p>
+
+                <a href="#portfolio" class="btn">
+                    Explore My Work
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Featured -->
+
+        <section id="featured">
+
+            <h2>Featured</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>IIT Guwahati</h3>
+                </div>
+
+                <div class="card">
+                    <h3>Academic Excellence Silver Medal</h3>
+                </div>
+
+                <div class="card">
+                    <h3>ECET State Rank 33</h3>
+                </div>
+
+                <div class="card">
+                    <h3>ASNT Level II</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Portfolio -->
+
+        <section id="portfolio">
+
+            <h2>Portfolio</h2>
+
+            <h3>Academic Projects</h3>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+
+                    <img src="images/cfd.jpg">
+
+                    <h4>
+                        FSI Models for Cavitation and Gas Bubbles
+                    </h4>
+
+                    <a href="#">
+                        View Project
+                    </a>
+
+                </div>
+
+                <div class="project-card">
+
+                    <img src="images/diesel.jpg">
+
+                    <h4>
+                        Numerical Analysis of Single Cylinder Diesel Engine
+                    </h4>
+
+                    <a href="#">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+            <h3>Personal Projects</h3>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+
+                    <img src="images/biofuel.jpg">
+
+                    <h4>
+                        Bio-Fuel Blend Optimization
+                    </h4>
+
+                    <a href="#">
+                        View Project
+                    </a>
+
+                </div>
+
+                <div class="project-card">
+
+                    <img src="images/railway.jpg">
+
+                    <h4>
+                        Smart Railway Waste Collection System
+                    </h4>
+
+                    <a href="#">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About -->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am an M.Tech student in Fluid & Thermal Engineering at IIT Guwahati
+                with interests in CFD, Heat Transfer, Combustion Modelling,
+                Multiphase Flow and Numerical Methods.
+            </p>
+
+        </section>
+
+        <!-- Achievements -->
+
+        <section id="achievements">
+
+            <h2>Achievements</h2>
+
+            <ul>
+
+                <li>Academic Excellence Silver Medal</li>
+
+                <li>ECET State Rank 33</li>
+
+                <li>B.Tech CGPA 9.16</li>
+
+                <li>ASNT Level II Certification</li>
+
+            </ul>
+
+        </section>
+
+        <!-- Contact -->
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p>Email: telasarisaikiran53@gmail.com</p>
+
+            <p>
+                LinkedIn:
+                linkedin.com/in/telasarisaikiran
+            </p>
+
+            <p>
+                GitHub:
+                github.com/telasarisaikiran
+            </p>
+
+        </section>
+
     </div>
-
-    <div class="card">
-        <h3>Biofuel Optimization</h3>
-        <p>Tested ethanol-butanol blends for emission reduction</p>
-    </div>
-</section>
-
-<section id="skills">
-    <h2>Technical Skills</h2>
-    <p>Python | C | MATLAB</p>
-    <p>ANSYS | OpenFOAM</p>
-    <p>SolidWorks | CATIA | AutoCAD</p>
-</section>
-
-<section id="achievements">
-    <h2>Achievements</h2>
-    <ul>
-        <li>Silver Medalist (B.Tech)</li>
-        <li>GATE 2025 AIR 2080</li>
-        <li>ECET Rank 33</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: telasarisai@gmail.com</p>
-    <p>GitHub: github.com/yourid</p>
-    <p>LinkedIn: linkedin.com/in/telasarisaikiran</p>
-</section>
-
-</div>
-
-<script>
-function scrollToSection(id) {
-    document.getElementById(id).scrollIntoView({behavior: "smooth"});
-}
-</script>
 
 </body>
+
 </html>
