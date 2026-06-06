@@ -9,13 +9,11 @@
 }
 
 body{
-    background:#f5f7fa;
+    background:#f4f7fb;
     color:#222;
 }
 
-/* =======================
-   SIDEBAR
-======================= */
+/* SIDEBAR */
 
 .sidebar{
     position:fixed;
@@ -23,11 +21,9 @@ body{
     top:0;
     width:280px;
     height:100vh;
-    background:#1f2d3d;
+    background:#0f172a;
     color:white;
     overflow-y:auto;
-    z-index:1000;
-    box-shadow:2px 0px 15px rgba(0,0,0,0.2);
 }
 
 .profile{
@@ -41,17 +37,15 @@ body{
     border-radius:50%;
     object-fit:cover;
     border:4px solid #38bdf8;
-    margin-bottom:15px;
 }
 
 .profile h2{
-    font-size:28px;
-    margin-bottom:8px;
+    margin-top:15px;
+    font-size:24px;
 }
 
 .profile p{
     color:#cbd5e1;
-    font-size:15px;
 }
 
 .sidebar ul{
@@ -60,67 +54,55 @@ body{
 }
 
 .sidebar ul li{
-    margin:15px 0;
+    margin:10px 0;
 }
 
 .sidebar ul li a{
     color:white;
     text-decoration:none;
-    font-size:18px;
     display:block;
-    padding:12px 15px;
+    padding:12px;
     border-radius:8px;
     transition:0.3s;
 }
 
 .sidebar ul li a:hover{
     background:#38bdf8;
-    color:#000;
-}
-
-.sidebar i{
-    margin-right:10px;
+    color:black;
 }
 
 .socials{
     text-align:center;
-    padding:20px;
+    margin-top:20px;
 }
 
 .socials a{
     color:white;
     font-size:24px;
     margin:0 10px;
-    transition:0.3s;
 }
 
-.socials a:hover{
-    color:#38bdf8;
-}
-
-/* =======================
-   MAIN CONTENT
-======================= */
+/* CONTENT */
 
 .content{
     margin-left:280px;
 }
 
-/* =======================
-   HERO SECTION
-======================= */
+/* HERO */
 
 .hero{
     height:100vh;
 
-    background:
+    background-image:
     linear-gradient(
     rgba(0,0,0,0.55),
-    rgba(0,0,0,0.55)),
-    url("images/IITG_campus.png");
+    rgba(0,0,0,0.55)
+    ),
+    url("./images/IITG_campus.png");
 
     background-size:cover;
-    background-position:center;
+    background-repeat:no-repeat;
+    background-position:center center;
 
     display:flex;
     justify-content:center;
@@ -136,40 +118,33 @@ body{
 }
 
 .overlay h1{
-    font-size:60px;
+    font-size:55px;
     margin-bottom:20px;
 }
 
 .overlay h2{
-    font-size:34px;
+    font-size:30px;
     line-height:1.5;
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
 
 .overlay p{
     font-size:20px;
-    line-height:1.8;
-    margin-bottom:35px;
+    line-height:1.7;
+    margin-bottom:30px;
 }
 
 .btn{
     display:inline-block;
-    text-decoration:none;
+    padding:15px 30px;
     background:#38bdf8;
     color:black;
-    padding:15px 35px;
-    border-radius:10px;
+    text-decoration:none;
+    border-radius:8px;
     font-weight:600;
-    transition:0.3s;
 }
 
-.btn:hover{
-    transform:translateY(-4px);
-}
-
-/* =======================
-   COMMON SECTION
-======================= */
+/* SECTIONS */
 
 section{
     padding:80px 60px;
@@ -178,12 +153,9 @@ section{
 section h2{
     font-size:40px;
     margin-bottom:30px;
-    color:#1e293b;
 }
 
-/* =======================
-   FEATURED
-======================= */
+/* FEATURED */
 
 .cards{
     display:grid;
@@ -195,94 +167,70 @@ section h2{
     background:white;
     padding:30px;
     border-radius:12px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
-    text-align:center;
-    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
-.card:hover{
-    transform:translateY(-8px);
-}
-
-/* =======================
-   PROJECTS
-======================= */
+/* PROJECTS */
 
 .project-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-    gap:30px;
-    margin-top:25px;
-    margin-bottom:50px;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
 }
 
 .project-card{
     background:white;
-    border-radius:15px;
+    border-radius:12px;
     overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-    transition:0.3s;
-}
-
-.project-card:hover{
-    transform:translateY(-8px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
 .project-card img{
     width:100%;
-    height:250px;
+    height:220px;
     object-fit:cover;
 }
 
 .project-card h4{
-    padding:20px;
-    font-size:22px;
+    padding:15px;
+}
+
+.project-card p{
+    padding:0 15px 15px;
 }
 
 .project-card a{
     display:block;
     text-align:center;
+    padding:15px;
     text-decoration:none;
     background:#38bdf8;
     color:black;
-    padding:15px;
     font-weight:600;
 }
 
-/* =======================
-   ABOUT
-======================= */
+/* ABOUT */
 
 #about p{
-    font-size:20px;
-    line-height:1.9;
+    font-size:18px;
+    line-height:1.8;
 }
 
-/* =======================
-   ACHIEVEMENTS
-======================= */
-
-#achievements ul{
-    padding-left:25px;
-}
+/* ACHIEVEMENTS */
 
 #achievements li{
-    font-size:20px;
     margin-bottom:15px;
+    font-size:18px;
 }
 
-/* =======================
-   CONTACT
-======================= */
+/* CONTACT */
 
 #contact p{
-    font-size:20px;
-    margin-bottom:15px;
+    margin-bottom:12px;
+    font-size:18px;
 }
 
-/* =======================
-   MOBILE
-======================= */
+/* MOBILE */
 
 @media(max-width:900px){
 
@@ -302,10 +250,6 @@ section h2{
 
     .overlay h2{
         font-size:24px;
-    }
-
-    .overlay p{
-        font-size:16px;
     }
 
     section{
