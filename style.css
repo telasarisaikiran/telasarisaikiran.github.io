@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+/* GLOBAL SETTINGS */
+
 *{
     margin:0;
     padding:0;
@@ -8,101 +11,164 @@
     scroll-behavior:smooth;
 }
 
+
+html{
+    margin:0;
+    padding:0;
+}
+
+
 body{
+    margin:0;
+    padding:0;
     background:#f4f7fb;
     color:#222;
+    overflow-x:hidden;
 }
+
+
 
 /* SIDEBAR */
 
 .sidebar{
+
     position:fixed;
     left:0;
     top:0;
+
     width:280px;
     height:100vh;
+
     background:#0f172a;
     color:white;
+
     overflow-y:auto;
+
 }
+
 
 .profile{
+
     text-align:center;
     padding:30px 20px;
+
 }
 
+
 .profile img{
+
     width:140px;
     height:140px;
     border-radius:50%;
     object-fit:cover;
+
     border:4px solid #38bdf8;
+
 }
+
 
 .profile h2{
+
     margin-top:15px;
     font-size:24px;
+
 }
+
 
 .profile p{
+
     color:#cbd5e1;
+
 }
+
+
 
 .sidebar ul{
+
     list-style:none;
     padding:20px;
+
 }
+
 
 .sidebar ul li{
+
     margin:10px 0;
+
 }
 
+
 .sidebar ul li a{
+
     color:white;
     text-decoration:none;
     display:block;
     padding:12px;
     border-radius:8px;
     transition:0.3s;
+
 }
+
 
 .sidebar ul li a:hover{
+
     background:#38bdf8;
     color:black;
+
 }
+
+
 
 .socials{
+
     text-align:center;
     margin-top:20px;
+
 }
 
+
 .socials a{
+
     color:white;
     font-size:24px;
     margin:0 10px;
+
 }
+
+
 
 /* CONTENT */
 
 .content{
+
     margin-left:280px;
+    padding:0;
+
 }
 
-/* HERO */
+
+
+/* HERO SECTION */
 
 .hero{
-    height:100vh;
 
-    background-image:
+    width:100%;
+    min-height:100vh;
+
+
+    background:
+
     linear-gradient(
-    rgba(0,0,0,0.55),
-    rgba(0,0,0,0.55)
-    ),
-    url("./images/IITG_campus.png");
 
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center center;
+    rgba(0,0,0,0.60),
+    rgba(0,0,0,0.60)
+
+    ),
+
+    url("./images/IITG_campus.png")
+
+    center/cover no-repeat;
+
 
     display:flex;
     justify-content:center;
@@ -110,149 +176,318 @@ body{
 
     text-align:center;
     color:white;
+
 }
+
 
 .overlay{
-    max-width:900px;
+
+    max-width:950px;
     padding:20px;
+
 }
+
 
 .overlay h1{
+
     font-size:55px;
     margin-bottom:20px;
+
 }
 
+
 .overlay h2{
+
     font-size:30px;
     line-height:1.5;
     margin-bottom:20px;
+
 }
 
+
 .overlay p{
+
     font-size:20px;
     line-height:1.7;
     margin-bottom:30px;
+
 }
+
+
 
 .btn{
+
     display:inline-block;
     padding:15px 30px;
+
     background:#38bdf8;
     color:black;
+
     text-decoration:none;
     border-radius:8px;
+
     font-weight:600;
+    transition:0.3s;
+
 }
 
-/* SECTIONS */
+
+.btn:hover{
+
+    background:#0ea5e9;
+
+}
+
+
+
+/* ALL SECTIONS */
 
 section{
+
     padding:80px 60px;
+
 }
+
 
 section h2{
+
     font-size:40px;
     margin-bottom:30px;
+
 }
 
-/* FEATURED */
+
+
+/* FEATURED SECTION */
 
 .cards{
+
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
     gap:25px;
+
 }
+
 
 .card{
+
     background:white;
+
     padding:30px;
+
     border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.1);
+
 }
 
-/* PROJECTS */
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+
+.card p{
+
+    line-height:1.7;
+
+}
+
+
+
+
+/* PROJECTS SECTION */
 
 .project-grid{
+
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
     gap:25px;
+
 }
+
+
 
 .project-card{
+
     background:white;
+
     border-radius:12px;
+
     overflow:hidden;
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
 }
+
+
+.project-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+
 
 .project-card img{
+
     width:100%;
     height:220px;
+
     object-fit:cover;
+
 }
 
+
+
+.project-card h3,
 .project-card h4{
+
     padding:15px;
+
 }
+
 
 .project-card p{
-    padding:0 15px 15px;
+
+    padding:0 20px 20px 20px;
+    line-height:1.8;
+
 }
+
+
 
 .project-card a{
+
     display:block;
+
     text-align:center;
+
     padding:15px;
+
     text-decoration:none;
+
     background:#38bdf8;
     color:black;
+
     font-weight:600;
+
+    transition:0.3s;
+
 }
 
-/* ABOUT */
+
+.project-card a:hover{
+
+    background:#0ea5e9;
+
+}
+
+
+
+
+/* ABOUT SECTION */
 
 #about p{
+
     font-size:18px;
-    line-height:1.8;
+    line-height:1.9;
+
 }
+
+
 
 /* ACHIEVEMENTS */
 
 #achievements li{
-    margin-bottom:15px;
+
+    margin-bottom:18px;
     font-size:18px;
+    line-height:1.7;
+
 }
+
+
 
 /* CONTACT */
 
 #contact p{
-    margin-bottom:12px;
+
+    margin-bottom:15px;
     font-size:18px;
+    line-height:1.8;
+
 }
 
-/* MOBILE */
+
+
+
+/* MOBILE RESPONSIVENESS */
 
 @media(max-width:900px){
 
+
     .sidebar{
+
         width:100%;
         height:auto;
         position:relative;
+
     }
+
 
     .content{
+
         margin-left:0;
+
     }
+
 
     .overlay h1{
+
         font-size:38px;
+
     }
+
 
     .overlay h2{
+
         font-size:24px;
+
     }
 
-    section{
-        padding:50px 25px;
+
+    .overlay p{
+
+        font-size:18px;
+
     }
+
+
+    section{
+
+        padding:50px 25px;
+
+    }
+
+
+    .project-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
 }
