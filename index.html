@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -6,318 +7,422 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telasari Sai Kiran | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+```
+<link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+```
+
 </head>
 
 <body>
 
-    <!-- Sidebar -->
+```
+<!-- Sidebar -->
 
-    <div class="sidebar">
+<div class="sidebar">
 
-        <div class="profile">
+    <div class="profile">
 
-            <img src="images/profile_pic.jpeg" alt="Sai Kiran">
+        <img src="images/profile_pic.jpeg" alt="Sai Kiran">
 
-            <h2>Telasari Sai Kiran</h2>
+        <h2>Telasari Sai Kiran</h2>
 
-            <p>M.Tech | IIT Guwahati</p>
+        <p>M.Tech | IIT Guwahati</p>
+
+    </div>
+
+    <ul>
+
+        <li>
+            <a href="#intro">
+                <i class="fas fa-home"></i>
+                Intro
+            </a>
+        </li>
+
+        <li>
+            <a href="#featured">
+                <i class="fas fa-star"></i>
+                Featured
+            </a>
+        </li>
+
+        <li>
+            <a href="#portfolio">
+                <i class="fas fa-th"></i>
+                Portfolio
+            </a>
+        </li>
+
+        <li>
+            <a href="#about">
+                <i class="fas fa-user"></i>
+                About Me
+            </a>
+        </li>
+
+        <li>
+            <a href="#achievements">
+                <i class="fas fa-trophy"></i>
+                Achievements
+            </a>
+        </li>
+
+        <li>
+            <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+    <div class="socials">
+
+        <a href="https://linkedin.com/in/telasarisaikiran" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/telasarisaikiran" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="mailto:telasarisaikiran53@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+    </div>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="content">
+
+    <!-- Intro -->
+
+    <section id="intro" class="hero">
+
+        <div class="overlay">
+
+            <h1>Welcome! I'm Telasari Sai Kiran</h1>
+
+            <h2>
+                M.Tech Student <br>
+                Fluid & Thermal Engineering <br>
+                Indian Institute of Technology Guwahati
+            </h2>
+
+            <p>
+                Exploring Fluid Flow, Heat Transfer,
+                Combustion, Multiphase Flow and Scientific
+                Computing through Simulation, Research and
+                Engineering Applications.
+            </p>
+
+            <a href="#portfolio" class="btn">
+                Explore My Work
+            </a>
 
         </div>
+
+    </section>
+
+
+    <!-- Featured -->
+
+    <section id="featured">
+
+        <h2>Featured Works</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Cavitation Research</h3>
+
+                <p>
+                    Fluid-Structure Interaction modelling of
+                    cavitation and gas bubbles in biological
+                    plants using experimental and computational
+                    techniques.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>EV Battery Thermal Management</h3>
+
+                <p>
+                    CFD and Machine Learning based predictive
+                    thermal management of lithium-ion battery
+                    modules for efficient cooling systems.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>ANSYS Forte Combustion Analysis</h3>
+
+                <p>
+                    Numerical analysis of a diesel engine
+                    including combustion modelling and emission
+                    characteristics validation.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Computational Engineering</h3>
+
+                <p>
+                    Applications of CFD, Multiphase Flow,
+                    Heat Transfer and Numerical Methods in
+                    solving engineering problems.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Technical Stack</h3>
+
+                <p>
+                    ANSYS Fluent, ANSYS Forte, MATLAB,
+                    Python, CATIA V5 and SolidWorks for
+                    engineering simulations and modelling.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Academic Excellence</h3>
+
+                <p>
+                    Silver Medalist in B.Tech with strong
+                    academic credentials and research-oriented
+                    engineering experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+
+        <h2>Portfolio</h2>
+
+        <h3>Academic Projects</h3>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <img src="images/plant.png" alt="Cavitation Project">
+
+                <h4>
+                    Fluid-Structure Interaction Models for
+                    Cavitation and Gas Bubbles in Biological Plants
+                </h4>
+
+                <p style="padding:0 20px 20px 20px;">
+                    Research focused on multiphase flow,
+                    embolism formation, cavitation and
+                    fluid-structure interaction in plant xylem.
+                </p>
+
+                <a href="numerical.html">
+                    View Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <img src="images/combustion.png"
+                    alt="Diesel Engine Project">
+
+                <h4>
+                    Numerical Analysis of Single Cylinder
+                    Diesel Engine using ANSYS Forte
+                </h4>
+
+                <p style="padding:0 20px 20px 20px;">
+                    CFD-based combustion modelling and
+                    validation of diesel engine performance
+                    characteristics.
+                </p>
+
+                <a href="single.html">
+                    View Project
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <h3>Personal Projects</h3>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <img src="images/battery.png"
+                    alt="EV Battery Project">
+
+                <h4>
+                    Predictive Thermal Management of
+                    EV Battery Modules using Machine Learning
+                </h4>
+
+                <p style="padding:0 20px 20px 20px;">
+                    Developing CFD-based datasets and
+                    Machine Learning models to predict
+                    optimal coolant flow rates for safe
+                    battery operation.
+                </p>
+
+                <a href="#">
+                    Ongoing Project
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <img src="images/railway.png"
+                    alt="Railway Project">
+
+                <h4>
+                    Smart Railway Waste Collection and
+                    Management System
+                </h4>
+
+                <p style="padding:0 20px 20px 20px;">
+                    Eco-friendly conceptual system designed
+                    to collect passenger waste from railway
+                    coaches and reduce environmental pollution.
+                </p>
+
+                <a href="railway-project.html">
+                    View Project
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am currently pursuing M.Tech in Fluid and
+            Thermal Engineering at IIT Guwahati with strong
+            interests in Computational Fluid Dynamics (CFD),
+            Multiphase Flow, Heat Transfer, Combustion
+            Modelling and Scientific Computing.
+        </p>
+
+        <br>
+
+        <p>
+            My work integrates simulation, experimentation
+            and computational techniques to solve complex
+            engineering problems ranging from biological
+            fluid systems to thermal management in electric
+            vehicles.
+        </p>
+
+        <br>
+
+        <p>
+            I am passionate about research-driven engineering
+            solutions and continuously strive to expand my
+            expertise in modelling, numerical methods and
+            advanced thermal-fluid sciences.
+        </p>
+
+    </section>
+
+
+    <!-- Achievements -->
+
+    <section id="achievements">
+
+        <h2>Achievements</h2>
 
         <ul>
 
-            <li>
-                <a href="#intro">
-                    <i class="fas fa-home"></i>
-                    Intro
-                </a>
-            </li>
+            <li>🥈 Academic Excellence Silver Medal (B.Tech)</li>
 
-            <li>
-                <a href="#featured">
-                    <i class="fas fa-star"></i>
-                    Featured
-                </a>
-            </li>
+            <li>🏅 ECET State Rank 33 (Mechanical Engineering)</li>
 
-            <li>
-                <a href="#portfolio">
-                    <i class="fas fa-th"></i>
-                    Portfolio
-                </a>
-            </li>
+            <li>🎓 B.Tech CGPA : 9.16</li>
 
-            <li>
-                <a href="#about">
-                    <i class="fas fa-user"></i>
-                    About Me
-                </a>
-            </li>
+            <li>📜 ASNT Level II Certification (NDT)</li>
 
-            <li>
-                <a href="#achievements">
-                    <i class="fas fa-trophy"></i>
-                    Achievements
-                </a>
-            </li>
-
-            <li>
-                <a href="#contact">
-                    <i class="fas fa-envelope"></i>
-                    Contact
-                </a>
-            </li>
+            <li>🏛️ M.Tech - IIT Guwahati</li>
 
         </ul>
 
-        <div class="socials">
+    </section>
 
-            <a href="https://linkedin.com/in/telasarisaikiran" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
 
-            <a href="https://github.com/telasarisaikiran" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
+    <!-- Contact -->
 
-            <a href="mailto:telasarisaikiran53@gmail.com">
-                <i class="fas fa-envelope"></i>
-            </a>
+    <section id="contact">
 
-        </div>
+        <h2>Contact</h2>
 
-    </div>
+        <p>
+            <strong>Email :</strong>
+            telasarisaikiran53@gmail.com
+        </p>
 
-    <!-- Main Content -->
+        <p>
+            <strong>Institute Email :</strong>
+            k.telasari@iitg.ac.in
+        </p>
 
-    <div class="content">
+        <p>
+            <strong>LinkedIn :</strong>
+            linkedin.com/in/telasarisaikiran
+        </p>
 
-        <!-- Hero Section -->
+        <p>
+            <strong>GitHub :</strong>
+            github.com/telasarisaikiran
+        </p>
 
-        <section id="intro" class="hero">
+    </section>
 
-            <div class="overlay">
-
-                <h1>Welcome! I'm Telasari Sai Kiran</h1>
-
-                <h2>
-                    M.Tech Student <br>
-                    Fluid & Thermal Engineering <br>
-                    Indian Institute of Technology Guwahati
-                </h2>
-
-                <p>
-                    Exploring Fluid Flow, Heat Transfer,
-                    Combustion and Multiphase Engineering
-                    through Simulation and Research.
-                </p>
-
-                <a href="#portfolio" class="btn">
-                    Explore My Work
-                </a>
-
-            </div>
-
-        </section>
-
-        <!-- Featured -->
-
-        <section id="featured">
-
-            <h2>Featured</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <h3>Indian Institute of Technology Guwahati</h3>
-                </div>
-
-                <div class="card">
-                    <h3>Academic Excellence Silver Medal</h3>
-                </div>
-
-                <div class="card">
-                    <h3>ECET State Rank 33</h3>
-                </div>
-
-                <div class="card">
-                    <h3>ASNT Level II Certification</h3>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- Portfolio -->
-
-        <section id="portfolio">
-
-            <h2>Portfolio</h2>
-
-            <h3>Academic Projects</h3>
-
-            <div class="project-grid">
-
-                <div class="project-card">
-
-                    <img src="images/plant.png" alt="CFD Project">
-
-                    <h4>
-                        Fluid-Structure Interaction models for Cavitation and Gas Bubbles in Biological Plants
-                    </h4>
-
-                    <p style="padding:0 20px 20px 20px;">
-                        Research focused on multiphase flow,
-                        embolism formation, cavitation and
-                        fluid-structure interaction in plant xylem.
-                    </p>
-
-                    <a href="numerical.html">
-                        View Project
-                    </a>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="images/combustion.png" alt="Diesel Engine Project">
-
-                    <h4>
-                        Numerical Analysis of Single Cylinder Diesel Engine using ANSYS Forte
-                    </h4>
-
-                    <p style="padding:0 20px 20px 20px;">
-                        CFD-based combustion modelling and validation
-                        of diesel engine performance characteristics.
-                    </p>
-
-                    <a href="single.html">
-                        View Project
-                    </a>
-
-                </div>
-
-            </div>
-
-            <h3>Personal Projects</h3>
-
-            <div class="project-grid">
-
-                <div class="project-card">
-
-                    <img src="images/engine.png" alt="Biofuel Project">
-
-                    <h4>
-                        Bio-Fuel Blend Optimization in SI Engines
-                    </h4>
-
-                    <p style="padding:0 20px 20px 20px;">
-                        Experimental investigation of bio-alcohol
-                        fuel blends to improve engine performance
-                        and reduce emissions.
-                    </p>
-
-                    <a href="blend.html">
-                        View Project
-                    </a>
-
-                </div>
-
-                <div class="project-card">
-
-                    <img src="images/railway.png" alt="Railway Project">
-
-                    <h4>
-                        Smart Railway Waste Collection and Management System
-                    </h4>
-
-                    <p style="padding:0 20px 20px 20px;">
-                        Eco-friendly conceptual system designed to
-                        collect passenger waste from railway coaches
-                        and reduce littering along tracks.
-                    </p>
-
-                    <a href="railway-project.html">
-                        View Project
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- About -->
-
-        <section id="about">
-
-            <h2>About Me</h2>
-
-            <p>
-                I am currently pursuing M.Tech in Fluid & Thermal
-                Engineering at IIT Guwahati. My interests include
-                Computational Fluid Dynamics (CFD), Heat Transfer,
-                Combustion Modelling, Multiphase Flow and Numerical
-                Methods.
-            </p>
-
-            <br>
-
-            <p>
-                I enjoy solving real-world engineering problems through
-                simulation, modelling and experimental validation.
-            </p>
-
-        </section>
-
-        <!-- Achievements -->
-
-        <section id="achievements">
-
-            <h2>Achievements</h2>
-
-            <ul>
-
-                <li>🥈 Academic Excellence Silver Medal</li>
-
-                <li>🏅 ECET State Rank 33</li>
-
-                <li>🎓 B.Tech CGPA: 9.16</li>
-
-                <li>📜 ASNT Level II NDT Certification</li>
-
-            </ul>
-
-        </section>
-
-        <!-- Contact -->
-
-        <section id="contact">
-
-            <h2>Contact</h2>
-
-            <p>
-                <strong>Email:</strong>
-                telasarisaikiran53@gmail.com
-            </p>
-
-            <p>
-                <strong>LinkedIn:</strong>
-                linkedin.com/in/telasarisaikiran
-            </p>
-
-            <p>
-                <strong>GitHub:</strong>
-                github.com/telasarisaikiran
-            </p>
-
-        </section>
-
-    </div>
+</div>
+```
 
 </body>
 
