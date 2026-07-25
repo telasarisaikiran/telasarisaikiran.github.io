@@ -431,7 +431,72 @@ section h2{
 
 }
 
+/* COMMENTS SECTION */
 
+#comments{
+
+    background:white;
+
+}
+
+
+#comments p{
+
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:25px;
+
+}
+
+
+.comment-form{
+
+    max-width:800px;
+
+}
+
+
+.comment-form input,
+.comment-form textarea{
+
+    width:100%;
+
+    padding:18px;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    border:1px solid #d1d5db;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+
+.comment-form input:focus,
+.comment-form textarea:focus{
+
+    border:2px solid #38bdf8;
+
+}
+
+
+.comment-form textarea{
+
+    resize:vertical;
+
+}
+
+
+.comment-form button{
+
+    border:none;
+    cursor:pointer;
+
+}
 
 
 /* MOBILE RESPONSIVENESS */
