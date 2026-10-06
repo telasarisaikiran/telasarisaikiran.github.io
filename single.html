@@ -4,1059 +4,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Numerical Analysis of Single Cylinder Diesel Engine | Telasari Sai Kiran</title>
-
-    <meta
-        name="description"
-        content="Numerical analysis of a single-cylinder diesel engine using ANSYS Forte, including combustion modelling, sector mesh simulation and validation against experimental pressure data."
-    >
-
-    <meta name="author" content="Telasari Sai Kiran">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap"
-        rel="stylesheet"
-    >
+    <title>Numerical Analysis of Single Cylinder Diesel Engine</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .project-page{
+            max-width:1000px;
+            margin:auto;
+            padding:50px;
+        }
+
+        .project-page img{
+            width:100%;
+            border-radius:15px;
+            margin-bottom:30px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .project-page h1{
+            margin-bottom:20px;
+            color:#0f172a;
+        }
+
+        .project-page h2{
+            margin-top:35px;
+            margin-bottom:15px;
+            color:#1e293b;
+        }
+
+        .project-page p{
+            font-size:18px;
+            line-height:1.8;
+            text-align:justify;
+        }
+
+        .project-page ul{
+            margin-left:25px;
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        .highlight{
+            background:#f8fafc;
+            padding:20px;
+            border-left:5px solid #38bdf8;
+            border-radius:8px;
+            margin-top:20px;
+        }
+
+        .back-btn{
+            display:inline-block;
+            margin-top:40px;
+            padding:12px 25px;
+            background:#38bdf8;
+            color:black;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:600;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-    <!-- Custom Cursor -->
-    <div class="cursor" aria-hidden="true"></div>
+<div class="project-page">
 
+    <h1>
+        Numerical Analysis of Single Cylinder Diesel Engine using ANSYS Forte
+    </h1>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
+    <p>
+        <strong>Project Type:</strong> Academic CFD Project
+    </p>
 
-    <header class="site-header">
+    <h2>Project Overview</h2>
 
-        <div class="nav-shell">
+    <p>
+        This project focuses on the numerical simulation and combustion
+        analysis of a single-cylinder diesel engine using ANSYS Forte.
+        The objective was to investigate combustion characteristics,
+        in-cylinder pressure development and heat release behaviour
+        through Computational Fluid Dynamics (CFD) techniques.
+    </p>
 
-            <a href="index.html" class="brand">
-                <span class="brand-mark">TSK</span>
-                <span class="brand-name">Telasari Sai Kiran</span>
-            </a>
+    <p>
+        The simulation results were validated with experimental engine
+        data to evaluate the accuracy of the numerical model and gain
+        deeper insights into diesel combustion processes.
+    </p>
 
-            <nav class="nav-links" aria-label="Primary navigation">
+    <h2>Objectives</h2>
 
-                <a href="index.html">Home</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#experience">Experience</a>
-                <a href="index.html#projects">Projects</a>
-                <a href="index.html#skills">Skills</a>
-                <a href="index.html#education">Education</a>
-                <a href="index.html#achievements">Achievements</a>
-                <a href="index.html#contact">Contact</a>
+    <ul>
 
-            </nav>
+        <li>Develop a CFD model of a single-cylinder diesel engine.</li>
 
-            <button
-                class="menu-btn"
-                type="button"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
-            >
-                ☰
-            </button>
+        <li>Simulate fuel injection and combustion processes.</li>
 
-        </div>
+        <li>Analyze in-cylinder pressure and temperature variation.</li>
 
-    </header>
+        <li>Study chemical heat release characteristics.</li>
 
+        <li>Validate simulation results using experimental data.</li>
 
-    <main class="project-case-study">
+        <li>Understand diesel combustion behaviour using numerical methods.</li>
 
+    </ul>
 
-        <!-- =========================
-             PROJECT HERO
-        ========================== -->
+    <h2>Methodology</h2>
 
-        <section class="project-hero bg-blueprint">
+    <p>
+        The engine geometry and operating conditions were defined in
+        ANSYS Forte. Appropriate spray, turbulence and combustion models
+        were selected to simulate diesel fuel injection and combustion.
+        The simulation was performed over the engine cycle and the
+        obtained results were post-processed for analysis and validation.
+    </p>
 
-            <div class="project-shell">
+    <h2>Software Used</h2>
 
-                <a href="index.html#projects" class="project-back">
-                    ← Back to projects
-                </a>
+    <ul>
 
+        <li>ANSYS Forte</li>
 
-                <div class="project-meta reveal">
+        <li>ANSYS CFD Post</li>
 
-                    <span class="project-type">
-                        B.TECH PROJECT
-                    </span>
+        <li>MATLAB</li>
 
-                    <span>
-                        JAN. 2024 — APR. 2024
-                    </span>
+        <li>Microsoft Excel</li>
 
-                    <span>
-                        ANSYS FORTE
-                    </span>
+    </ul>
 
-                </div>
+    <h2>Parameters Investigated</h2>
 
+    <ul>
 
-                <h1 class="project-title reveal">
+        <li>In-Cylinder Pressure</li>
 
-                    Numerical Analysis of
-                    <span class="text-gradient">
-                        Single Cylinder Diesel Engine
-                    </span>
-                    using ANSYS Forte
+        <li>Temperature Distribution</li>
 
-                </h1>
+        <li>Chemical Heat Release Rate</li>
 
+        <li>Combustion Characteristics</li>
 
-                <p class="project-intro reveal">
+        <li>Simulation Accuracy</li>
 
-                    A numerical combustion study of a single-cylinder diesel
-                    engine using ANSYS Forte, developed in connection with
-                    experimental low-temperature combustion work and validated
-                    against measured in-cylinder pressure data.
+    </ul>
 
-                </p>
+    <h2>Results & Validation</h2>
 
+    <ul>
 
-                <!-- =========================
-                     ENGINE CONCEPT VISUAL
-                ========================== -->
+        <li>
+            Maximum simulated in-cylinder pressure:
+            <strong>67 bar</strong>
+        </li>
 
-                <div class="project-visual-large panel corner-ticks reveal">
+        <li>
+            Experimental peak pressure:
+            <strong>65 bar</strong>
+        </li>
 
-                    <svg
-                        viewBox="0 0 1000 430"
-                        role="img"
-                        aria-label="Illustrative single-cylinder diesel engine combustion schematic"
-                    >
+        <li>
+            Simulation deviation:
+            <strong>3.08%</strong>
+        </li>
 
-                        <defs>
+        <li>
+            Peak in-cylinder temperature:
+            <strong>1250 K</strong>
+        </li>
 
-                            <radialGradient id="combustionGlow">
+        <li>
+            Maximum chemical heat release rate:
+            <strong>70 J/degree CA</strong>
+        </li>
 
-                                <stop
-                                    offset="0%"
-                                    stop-color="var(--heat)"
-                                    stop-opacity="0.75"
-                                />
+    </ul>
 
-                                <stop
-                                    offset="55%"
-                                    stop-color="var(--violet)"
-                                    stop-opacity="0.25"
-                                />
+    <div class="highlight">
 
-                                <stop
-                                    offset="100%"
-                                    stop-color="var(--violet)"
-                                    stop-opacity="0"
-                                />
+        <h2>Key Achievement</h2>
 
-                            </radialGradient>
-
-                            <linearGradient id="pressureGradient">
+        <p>
+            Successfully developed and validated an ANSYS Forte
+            combustion model for a single-cylinder diesel engine,
+            achieving only 3.08% deviation between simulated and
+            experimental peak cylinder pressure.
+        </p>
 
-                                <stop
-                                    offset="0%"
-                                    stop-color="var(--cyan)"
-                                />
+    </div>
 
-                                <stop
-                                    offset="100%"
-                                    stop-color="var(--violet)"
-                                />
-
-                            </linearGradient>
-
-                        </defs>
+    <h2>Skills Applied</h2>
 
+    <ul>
 
-                        <!-- Cylinder -->
+        <li>Computational Fluid Dynamics (CFD)</li>
 
-                        <rect
-                            x="170"
-                            y="65"
-                            width="260"
-                            height="270"
-                            rx="4"
-                            fill="none"
-                            stroke="var(--foreground)"
-                            stroke-opacity="0.35"
-                        />
-
-
-                        <!-- Combustion region -->
-
-                        <ellipse
-                            cx="300"
-                            cy="175"
-                            rx="115"
-                            ry="90"
-                            fill="url(#combustionGlow)"
-                        />
-
-
-                        <!-- Injector -->
-
-                        <rect
-                            x="282"
-                            y="43"
-                            width="36"
-                            height="35"
-                            rx="3"
-                            fill="var(--secondary)"
-                            stroke="var(--cyan)"
-                        />
-
-
-                        <!-- Spray lines -->
-
-                        <g
-                            stroke="var(--cyan)"
-                            stroke-opacity="0.7"
-                            stroke-width="2"
-                            class="flow-dash"
-                        >
-
-                            <line x1="300" y1="78" x2="215" y2="175"/>
-                            <line x1="300" y1="78" x2="255" y2="195"/>
-                            <line x1="300" y1="78" x2="300" y2="205"/>
-                            <line x1="300" y1="78" x2="345" y2="195"/>
-                            <line x1="300" y1="78" x2="385" y2="175"/>
-
-                        </g>
-
-
-                        <!-- Swirl -->
-
-                        <path
-                            d="
-                                M220 190
-                                C250 120 370 125 385 190
-                                C395 240 320 260 270 225
-                                C235 200 255 160 310 155
-                            "
-                            fill="none"
-                            stroke="var(--violet)"
-                            stroke-width="2"
-                            stroke-opacity="0.65"
-                        />
-
-
-                        <!-- Piston -->
-
-                        <rect
-                            x="185"
-                            y="265"
-                            width="230"
-                            height="55"
-                            fill="var(--secondary)"
-                            stroke="var(--foreground)"
-                            stroke-opacity="0.45"
-                        />
-
-
-                        <!-- Connecting rod -->
-
-                        <line
-                            x1="300"
-                            y1="320"
-                            x2="355"
-                            y2="405"
-                            stroke="var(--foreground)"
-                            stroke-opacity="0.45"
-                            stroke-width="12"
-                        />
-
-
-                        <!-- Pressure curve -->
-
-                        <polyline
-                            points="
-                                540,315
-                                575,310
-                                610,300
-                                645,270
-                                680,195
-                                710,100
-                                740,160
-                                775,245
-                                815,285
-                                865,305
-                                930,312
-                            "
-                            fill="none"
-                            stroke="url(#pressureGradient)"
-                            stroke-width="3"
-                        />
-
-
-                        <!-- Axis -->
-
-                        <line
-                            x1="540"
-                            y1="320"
-                            x2="940"
-                            y2="320"
-                            stroke="var(--foreground)"
-                            stroke-opacity="0.2"
-                        />
-
-                        <line
-                            x1="540"
-                            y1="70"
-                            x2="540"
-                            y2="320"
-                            stroke="var(--foreground)"
-                            stroke-opacity="0.2"
-                        />
+        <li>IC Engine Analysis</li>
 
+        <li>Combustion Modelling</li>
 
-                        <!-- Labels -->
+        <li>ANSYS Forte</li>
 
-                        <text
-                            x="555"
-                            y="55"
-                            fill="var(--muted-foreground)"
-                            font-family="JetBrains Mono"
-                            font-size="15"
-                        >
-                            IN-CYLINDER PRESSURE
-                        </text>
+        <li>Numerical Simulation</li>
 
-                        <text
-                            x="850"
-                            y="345"
-                            fill="var(--muted-foreground)"
-                            font-family="JetBrains Mono"
-                            font-size="13"
-                        >
-                            CRANK ANGLE →
-                        </text>
+        <li>Data Interpretation</li>
 
-                        <text
-                            x="205"
-                            y="385"
-                            fill="var(--muted-foreground)"
-                            font-family="JetBrains Mono"
-                            font-size="14"
-                        >
-                            COMBUSTION / SPRAY CONCEPT
-                        </text>
+    </ul>
 
-                    </svg>
+    <h2>Future Scope</h2>
 
+    <p>
+        Future work can include alternative fuel combustion studies,
+        optimization of injection parameters, emission reduction
+        strategies and advanced validation using experimental engine data.
+    </p>
 
-                    <span class="visual-disclaimer">
-                        ILLUSTRATIVE ENGINE COMBUSTION SCHEMATIC · NOT A SIMULATION RESULT
-                    </span>
+    <a href="index.html" class="back-btn">
+        ← Back to Portfolio
+    </a>
 
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PROJECT DETAILS
-        ========================== -->
-
-        <section class="project-content">
-
-            <div class="project-shell">
-
-
-                <!-- AT A GLANCE -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        01 / AT A GLANCE
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <div class="project-stat-grid">
-
-                            <div class="project-stat">
-                                <span>SOFTWARE</span>
-                                <strong>ANSYS Forte</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>ENGINE</span>
-                                <strong>Single Cylinder Diesel</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>SIMULATED PEAK</span>
-                                <strong>67 bar</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>EXPERIMENTAL PEAK</span>
-                                <strong>65 bar</strong>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- OVERVIEW -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        02 / PROJECT OVERVIEW
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <p>
-
-                            This project investigated the combustion behaviour
-                            of a single-cylinder diesel engine through numerical
-                            simulation using ANSYS Forte.
-
-                        </p>
-
-                        <p>
-
-                            The work was connected to experimental studies on
-                            low-temperature combustion strategies. The numerical
-                            model was used to examine important in-cylinder
-                            quantities including pressure, temperature, heat
-                            release behaviour, fuel distribution and combustion
-                            characteristics.
-
-                        </p>
-
-                        <p>
-
-                            Experimental cylinder-pressure data were used as a
-                            reference for evaluating the numerical model.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- ENGINE CONFIGURATION -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        03 / ENGINE CONFIGURATION
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <div class="data-table">
-
-                            <div>
-                                <span>Engine</span>
-                                <strong>KIRLOSKAR TV1</strong>
-                            </div>
-
-                            <div>
-                                <span>Configuration</span>
-                                <strong>Single-cylinder, four-stroke</strong>
-                            </div>
-
-                            <div>
-                                <span>Cooling</span>
-                                <strong>Water cooled</strong>
-                            </div>
-
-                            <div>
-                                <span>Bore</span>
-                                <strong>87.5 mm</strong>
-                            </div>
-
-                            <div>
-                                <span>Stroke</span>
-                                <strong>110 mm</strong>
-                            </div>
-
-                            <div>
-                                <span>Compression Ratio</span>
-                                <strong>17.5 : 1</strong>
-                            </div>
-
-                            <div>
-                                <span>Displacement</span>
-                                <strong>661 cc</strong>
-                            </div>
-
-                            <div>
-                                <span>Crank Radius</span>
-                                <strong>55 mm</strong>
-                            </div>
-
-                            <div>
-                                <span>Connecting Rod</span>
-                                <strong>234 mm</strong>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- GEOMETRY -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        04 / NUMERICAL GEOMETRY
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <p>
-
-                            A sector-based representation of the combustion
-                            chamber was used to reduce computational cost while
-                            retaining the relevant geometric characteristics of
-                            the engine.
-
-                        </p>
-
-                        <div class="project-stat-grid project-stat-grid-small">
-
-                            <div class="project-stat">
-                                <span>SECTOR ANGLE</span>
-                                <strong>60°</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>BORE</span>
-                                <strong>87.5 mm</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>STROKE</span>
-                                <strong>110 mm</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>SQUISH</span>
-                                <strong>5.6 mm</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>CREVICE WIDTH</span>
-                                <strong>1.67 mm</strong>
-                            </div>
-
-                            <div class="project-stat">
-                                <span>CREVICE HEIGHT</span>
-                                <strong>37.2621 mm</strong>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- PHYSICS -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        05 / PHYSICS & MODELLING
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <p>
-
-                            ANSYS Forte was used to represent the coupled
-                            processes occurring during engine combustion.
-
-                        </p>
-
-                        <div class="tag-cloud">
-
-                            <span>Mass Conservation</span>
-                            <span>Momentum Conservation</span>
-                            <span>Energy Equation</span>
-                            <span>Equation of State</span>
-                            <span>RANS</span>
-                            <span>RNG k-ε</span>
-                            <span>Fuel Spray</span>
-                            <span>Injection</span>
-                            <span>Combustion</span>
-                            <span>Chemical Kinetics</span>
-                            <span>Heat Transfer</span>
-                            <span>Emissions</span>
-
-                        </div>
-
-                        <div class="equation-panel">
-
-                            <span class="equation-label">
-                                REPRESENTATIVE CONSERVATION FORM
-                            </span>
-
-                            <p>
-                                ∂(ρφ)/∂t + ∇·(ρuφ)
-                                =
-                                ∇·(Γ∇φ) + Sφ
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- METHODOLOGY -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        06 / METHODOLOGY
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <ol class="method-list">
-
-                            <li>
-                                <span>01</span>
-                                <div>
-                                    <strong>Engine geometry definition</strong>
-                                    <p>
-                                        Defined bore, stroke, combustion-chamber
-                                        geometry and relevant engine dimensions.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <span>02</span>
-                                <div>
-                                    <strong>Sector model generation</strong>
-                                    <p>
-                                        Constructed the 60° sector representation
-                                        for computational analysis.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <span>03</span>
-                                <div>
-                                    <strong>Mesh generation</strong>
-                                    <p>
-                                        Established mesh topology, control points
-                                        and mesh sizing for the moving engine domain.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <span>04</span>
-                                <div>
-                                    <strong>Physical model setup</strong>
-                                    <p>
-                                        Configured turbulence, spray, combustion,
-                                        chemical kinetics and heat-transfer models.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <span>05</span>
-                                <div>
-                                    <strong>Numerical simulation</strong>
-                                    <p>
-                                        Simulated the engine combustion process over
-                                        the selected crank-angle range.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <span>06</span>
-                                <div>
-                                    <strong>Post-processing & validation</strong>
-                                    <p>
-                                        Evaluated in-cylinder quantities and compared
-                                        simulated pressure with experimental data.
-                                    </p>
-                                </div>
-                            </li>
-
-                        </ol>
-
-                    </div>
-
-                </div>
-
-
-                <!-- OUTPUTS -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        07 / OUTPUTS ANALYSED
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <div class="tag-cloud">
-
-                            <span>In-Cylinder Pressure</span>
-                            <span>Temperature</span>
-                            <span>Heat Release Rate</span>
-                            <span>Fuel Vapour Mass Fraction</span>
-                            <span>Equivalence Ratio</span>
-                            <span>NO</span>
-                            <span>NO₂</span>
-                            <span>CO</span>
-                            <span>CO₂</span>
-
-                        </div>
-
-                        <p class="technical-note">
-
-                            Heat release showed a sharp rise around top dead
-                            centre during the combustion event. No unsupported
-                            exact peak heat-release value is reported here.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- VALIDATION -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        08 / VALIDATION
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <div class="validation-panel corner-ticks">
-
-                            <p class="label-mono">
-                                REPORTED PROJECT RESULT
-                            </p>
-
-                            <div class="validation-numbers">
-
-                                <div>
-
-                                    <span>
-                                        SIMULATION
-                                    </span>
-
-                                    <strong>
-                                        67
-                                        <small>bar</small>
-                                    </strong>
-
-                                </div>
-
-
-                                <div class="validation-vs">
-                                    VS
-                                </div>
-
-
-                                <div>
-
-                                    <span>
-                                        EXPERIMENT
-                                    </span>
-
-                                    <strong>
-                                        65
-                                        <small>bar</small>
-                                    </strong>
-
-                                </div>
-
-                            </div>
-
-
-                            <div class="deviation">
-
-                                <span>
-                                    APPROXIMATE DEVIATION
-                                </span>
-
-                                <strong>
-                                    ≈ 3.1%
-                                </strong>
-
-                            </div>
-
-
-                            <p>
-
-                                The predicted peak in-cylinder pressure showed
-                                close agreement with the experimental value,
-                                with a difference of approximately 2 bar.
-
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- ENGINEERING INSIGHTS -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        09 / ENGINEERING INSIGHTS
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <ul class="engineering-list">
-
-                            <li>
-                                Numerical combustion modelling provides access to
-                                spatial and temporal quantities that are difficult
-                                to obtain from engine experiments alone.
-                            </li>
-
-                            <li>
-                                Sector modelling can reduce computational expense
-                                when geometric and injection symmetry permit its use.
-                            </li>
-
-                            <li>
-                                Turbulence, spray breakup, chemical kinetics and
-                                heat transfer interact strongly during diesel
-                                combustion.
-                            </li>
-
-                            <li>
-                                Experimental pressure data provide an important
-                                reference for assessing numerical predictions.
-                            </li>
-
-                            <li>
-                                The simulated and experimental peak-pressure
-                                values showed close agreement for the investigated
-                                case.
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-
-                <!-- SKILLS -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        10 / ENGINEERING CONCEPTS
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <div class="tag-cloud">
-
-                            <span>Computational Fluid Dynamics</span>
-                            <span>Internal Combustion Engines</span>
-                            <span>Combustion Modelling</span>
-                            <span>ANSYS Forte</span>
-                            <span>RANS</span>
-                            <span>RNG k-ε</span>
-                            <span>Fuel Spray</span>
-                            <span>Chemical Kinetics</span>
-                            <span>Heat Transfer</span>
-                            <span>Numerical Simulation</span>
-                            <span>Model Validation</span>
-                            <span>Post Processing</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- TAKEAWAY -->
-
-                <div class="project-block reveal">
-
-                    <div class="project-block-label">
-                        11 / KEY TAKEAWAY
-                    </div>
-
-                    <div class="project-block-content">
-
-                        <div class="takeaway-panel">
-
-                            <span class="label-mono">
-                                PROJECT OUTCOME
-                            </span>
-
-                            <h2>
-                                Simulation connected with experiment.
-                            </h2>
-
-                            <p>
-
-                                The project established a numerical ANSYS Forte
-                                workflow for analysing single-cylinder diesel
-                                combustion and comparing predicted cylinder
-                                pressure against experimental measurements.
-
-                            </p>
-
-                            <p>
-
-                                Peak simulated pressure was
-                                <strong>67 bar</strong>, compared with
-                                <strong>65 bar</strong> experimentally,
-                                corresponding to approximately
-                                <strong>3.1% deviation</strong>.
-
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- DISCLAIMER -->
-
-                <div class="project-disclaimer reveal">
-
-                    <span>
-                        DATA NOTE
-                    </span>
-
-                    <p>
-
-                        Numerical values identified as reported project results
-                        are based on the available project material. The
-                        engineering schematic shown on this page is illustrative
-                        and is not presented as an ANSYS simulation contour.
-
-                    </p>
-
-                </div>
-
-
-                <!-- BACK -->
-
-                <div class="project-bottom-nav reveal">
-
-                    <a href="index.html#projects" class="project-back-button">
-                        ← Back to projects
-                    </a>
-
-                    <a href="academic.html" class="project-secondary-button">
-                        Academic projects
-                    </a>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
-    <footer class="site-footer">
-
-        <div class="footer-scanline"></div>
-
-        <div class="footer-shell">
-
-            <div>
-
-                <h2>
-                    TELASARI SAI KIRAN
-                </h2>
-
-                <p>
-                    Mechanical Engineer
-                </p>
-
-                <span>
-                    CFD • THERMAL • SIMULATION • CAE
-                </span>
-
-            </div>
-
-
-            <div class="footer-links">
-
-                <a
-                    href="https://linkedin.com/in/telasarisaikiran"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    LinkedIn
-                </a>
-
-                <a href="mailto:k.telasari@iitg.ac.in">
-                    Email
-                </a>
-
-                <a href="index.html#projects">
-                    Projects
-                </a>
-
-            </div>
-
-
-            <p class="copyright">
-                © 2026 Telasari Sai Kiran. All rights reserved.
-            </p>
-
-        </div>
-
-    </footer>
-
-
-    <script src="script.js"></script>
+</div>
 
 </body>
 
