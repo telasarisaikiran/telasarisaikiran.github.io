@@ -1,236 +1,930 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <title>EV Battery Thermal Management | Sai Kiran</title>
 
-    <title>EV Battery Thermal Management</title>
+    <meta name="description"
+        content="Predictive Thermal Management of EV Battery Modules using CFD and Machine Learning.">
 
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 
+    <!-- ================= HEADER ================= -->
 
-    <!-- Project Section -->
+    <header class="site-header">
+        <div class="container nav-container">
 
-    <section id="battery-project">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">SK</span>
+                <span class="brand-text">
+                    SAI KIRAN
+                    <small>MECHANICAL ENGINEERING</small>
+                </span>
+            </a>
 
-        <h2>
-            Predictive Thermal Management of EV Battery Modules
-            using Machine Learning
-        </h2>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
 
-        <br>
+            <a href="index.html#contact" class="nav-cta">
+                Contact <span>↗</span>
+            </a>
 
-        <img src="images/battery.jpg"
-            alt="Battery Thermal Management System">
+        </div>
+    </header>
 
 
-        <br><br>
+    <!-- ================= HERO ================= -->
 
+    <main>
 
-        <h3>Project Overview</h3>
+        <section class="project-hero">
+            <div class="container">
 
-        <p>
+                <div class="project-kicker">
+                    <span class="status-dot"></span>
+                    PERSONAL RESEARCH PROJECT
+                </div>
 
-            Electric vehicle batteries generate significant heat
-            during charging and discharging cycles. Maintaining
-            battery temperature within an optimal range is essential
-            for improving safety, performance and battery lifespan.
-            This project focuses on developing an intelligent
-            Battery Thermal Management System (BTMS) using
-            Computational Fluid Dynamics (CFD) and Machine Learning
-            techniques for predictive cooling strategies.
+                <div class="project-hero-grid">
 
-        </p>
+                    <div class="project-hero-content">
 
+                        <div class="technical-label">
+                            CFD / THERMAL / MACHINE LEARNING
+                        </div>
 
-        <br>
+                        <h1>
+                            Predictive Thermal Management
+                            of EV Battery Modules
+                            <span>using Machine Learning</span>
+                        </h1>
 
+                        <p class="project-lead">
+                            A computational framework combining
+                            Computational Fluid Dynamics and Machine
+                            Learning to investigate thermal behaviour
+                            and predictive cooling strategies for
+                            lithium-ion battery modules.
+                        </p>
 
-        <h3>Objectives</h3>
+                        <div class="project-meta">
 
-        <ul>
+                            <div class="meta-item">
+                                <span class="meta-label">DOMAIN</span>
+                                <strong>Battery Thermal Management</strong>
+                            </div>
 
-            <li>
-                Develop CFD models for lithium-ion battery modules.
-            </li>
+                            <div class="meta-item">
+                                <span class="meta-label">METHOD</span>
+                                <strong>CFD + Machine Learning</strong>
+                            </div>
 
-            <li>
-                Analyze temperature distribution inside battery packs.
-            </li>
+                            <div class="meta-item">
+                                <span class="meta-label">STATUS</span>
+                                <strong>Ongoing Research</strong>
+                            </div>
 
-            <li>
-                Generate simulation datasets under various operating
-                conditions.
-            </li>
+                        </div>
 
-            <li>
-                Develop Machine Learning models for predicting
-                optimum coolant flow rates.
-            </li>
+                    </div>
 
-            <li>
-                Improve battery safety, thermal uniformity and
-                energy efficiency.
-            </li>
 
-        </ul>
+                    <div class="project-hero-visual">
 
+                        <div class="technical-panel battery-panel">
 
-        <br>
+                            <div class="panel-header">
+                                <span>BTMS / CFD</span>
+                                <span>01</span>
+                            </div>
 
+                            <div class="battery-visual">
 
-        <h3>Methodology</h3>
+                                <div class="coolant-flow flow-1"></div>
+                                <div class="coolant-flow flow-2"></div>
+                                <div class="coolant-flow flow-3"></div>
 
-        <p>
+                                <div class="battery-pack">
 
-            The project integrates CFD simulations and Machine
-            Learning techniques. Temperature profiles obtained from
-            numerical simulations are used to train predictive
-            models that estimate cooling requirements for different
-            battery operating conditions. The proposed framework
-            aims to minimize thermal hotspots while maintaining
-            efficient coolant utilization.
+                                    <div class="battery-cell"></div>
+                                    <div class="battery-cell"></div>
+                                    <div class="battery-cell"></div>
+                                    <div class="battery-cell"></div>
 
-        </p>
+                                    <div class="battery-cell"></div>
+                                    <div class="battery-cell"></div>
+                                    <div class="battery-cell"></div>
+                                    <div class="battery-cell"></div>
 
+                                </div>
 
-        <br>
+                            </div>
 
+                            <div class="panel-footer">
+                                <span>THERMAL FIELD</span>
+                                <span>FLOW FIELD</span>
+                            </div>
 
-        <h3>Tools & Technologies Used</h3>
+                        </div>
 
-        <ul>
+                    </div>
 
-            <li>ANSYS Fluent</li>
+                </div>
 
-            <li>Python</li>
+            </div>
+        </section>
 
-            <li>Machine Learning Algorithms</li>
 
-            <li>Computational Fluid Dynamics (CFD)</li>
+        <!-- ================= OVERVIEW ================= -->
 
-            <li>Data Analysis and Visualization</li>
+        <section class="project-section">
+            <div class="container">
 
-        </ul>
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <div>
+                        <div class="technical-label">PROJECT OVERVIEW</div>
+                        <h2>Why Battery Thermal Management?</h2>
+                    </div>
+                </div>
 
 
-        <br>
+                <div class="content-grid">
 
+                    <div class="content-main">
 
-        <!-- Simulation Results -->
+                        <p class="large-text">
+                            Lithium-ion batteries generate heat during
+                            charging and discharging. Controlling this
+                            heat is important for maintaining battery
+                            safety, performance and service life.
+                        </p>
 
-        <h3>CFD Simulation Results</h3>
+                        <p>
+                            This project focuses on developing a
+                            computational Battery Thermal Management
+                            System (BTMS) framework using Computational
+                            Fluid Dynamics and Machine Learning.
+                        </p>
 
-        <p>
+                        <p>
+                            CFD simulations are used to investigate the
+                            thermal and flow behaviour of the battery
+                            module under different operating conditions.
+                            The resulting simulation data can then be
+                            used as a basis for predictive modelling.
+                        </p>
 
-            CFD simulations were performed to evaluate the thermal
-            and flow characteristics of the battery module. The
-            temperature and coolant velocity distributions were
-            analyzed to assess the cooling performance of the system.
+                    </div>
 
-        </p>
 
+                    <div class="technical-panel">
 
-        <br>
+                        <div class="panel-header">
+                            <span>ENGINEERING TARGET</span>
+                            <span>01</span>
+                        </div>
 
+                        <div class="metric-stack">
 
-        <!-- Temperature Distribution -->
+                            <div class="metric-row">
+                                <span>THERMAL</span>
+                                <strong>UNIFORMITY</strong>
+                            </div>
 
-        <figure>
+                            <div class="metric-row">
+                                <span>COOLING</span>
+                                <strong>EFFICIENCY</strong>
+                            </div>
 
-            <img src="images/crosssection.png"
-                alt="Temperature distribution across the battery module">
+                            <div class="metric-row">
+                                <span>BATTERY</span>
+                                <strong>SAFETY</strong>
+                            </div>
 
-            <figcaption>
-                Figure 1: Temperature distribution across the EV battery module.
-            </figcaption>
+                            <div class="metric-row">
+                                <span>COMPUTATION</span>
+                                <strong>REDUCTION</strong>
+                            </div>
 
-        </figure>
+                        </div>
 
+                    </div>
 
-        <br><br>
+                </div>
 
+            </div>
+        </section>
 
-        <!-- Velocity Distribution -->
 
-        <figure>
+        <!-- ================= ENGINEERING PROBLEM ================= -->
 
-            <img src="images/velocity.png"
-                alt="Coolant velocity distribution in the battery module">
+        <section class="project-section section-alt">
+            <div class="container">
 
-            <figcaption>
-                Figure 2: Coolant velocity distribution within the battery module.
-            </figcaption>
+                <div class="section-heading">
+                    <span class="section-number">02</span>
+                    <div>
+                        <div class="technical-label">ENGINEERING PROBLEM</div>
+                        <h2>From Heat Generation to Cooling Strategy</h2>
+                    </div>
+                </div>
 
-        </figure>
 
+                <div class="feature-grid">
 
-        <br>
+                    <article class="feature-card">
 
+                        <span class="feature-index">01</span>
 
-        <h3>Expected Outcomes</h3>
+                        <h3>Heat Generation</h3>
 
-        <ul>
+                        <p>
+                            Battery cells generate heat during
+                            operation. The resulting thermal field
+                            affects the temperature distribution
+                            within the module.
+                        </p>
 
-            <li>
-                Enhanced battery thermal performance.
-            </li>
+                    </article>
 
-            <li>
-                Prediction of optimum coolant flow rates.
-            </li>
 
-            <li>
-                Improved thermal uniformity within battery modules.
-            </li>
+                    <article class="feature-card">
 
-            <li>
-                Increased battery lifespan and operational safety.
-            </li>
+                        <span class="feature-index">02</span>
 
-            <li>
-                Reduced computational cost through predictive models.
-            </li>
+                        <h3>Temperature Distribution</h3>
 
-        </ul>
+                        <p>
+                            CFD is used to examine temperature
+                            distribution and identify regions where
+                            thermal non-uniformity may occur.
+                        </p>
 
+                    </article>
 
-        <br>
 
+                    <article class="feature-card">
 
-        <h3>Project Status</h3>
+                        <span class="feature-index">03</span>
 
-        <p>
+                        <h3>Coolant Flow</h3>
 
-            <strong>Current Status :</strong>
-            Ongoing Research Project at IIT Guwahati.
+                        <p>
+                            Coolant velocity distribution is analysed
+                            to understand how the cooling medium
+                            interacts with the battery module.
+                        </p>
 
-        </p>
+                    </article>
 
 
-        <br>
+                    <article class="feature-card">
 
+                        <span class="feature-index">04</span>
 
-        <a href="personal.html" class="btn">
+                        <h3>Predictive Control</h3>
 
-            Back to Personal Projects
+                        <p>
+                            Simulation data can be used to develop
+                            predictive models for estimating cooling
+                            requirements under different conditions.
+                        </p>
 
-        </a>
+                    </article>
 
+                </div>
 
-    </section>
+            </div>
+        </section>
 
+
+        <!-- ================= OBJECTIVES ================= -->
+
+        <section class="project-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">03</span>
+                    <div>
+                        <div class="technical-label">OBJECTIVES</div>
+                        <h2>Research Objectives</h2>
+                    </div>
+                </div>
+
+
+                <div class="objective-list">
+
+                    <div class="objective-item">
+                        <span>01</span>
+                        <p>
+                            Develop CFD models for lithium-ion battery
+                            modules.
+                        </p>
+                    </div>
+
+                    <div class="objective-item">
+                        <span>02</span>
+                        <p>
+                            Analyse temperature distribution inside
+                            battery packs.
+                        </p>
+                    </div>
+
+                    <div class="objective-item">
+                        <span>03</span>
+                        <p>
+                            Generate simulation datasets under
+                            different operating conditions.
+                        </p>
+                    </div>
+
+                    <div class="objective-item">
+                        <span>04</span>
+                        <p>
+                            Develop Machine Learning models for
+                            predicting optimum coolant flow rates.
+                        </p>
+                    </div>
+
+                    <div class="objective-item">
+                        <span>05</span>
+                        <p>
+                            Improve battery safety, thermal uniformity
+                            and cooling energy efficiency.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= METHODOLOGY ================= -->
+
+        <section class="project-section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">04</span>
+                    <div>
+                        <div class="technical-label">METHODOLOGY</div>
+                        <h2>CFD → Dataset → Prediction</h2>
+                    </div>
+                </div>
+
+
+                <div class="methodology-flow">
+
+                    <div class="method-step">
+
+                        <div class="method-number">01</div>
+
+                        <h3>Battery Module</h3>
+
+                        <p>
+                            Build the computational representation
+                            of the lithium-ion battery module and
+                            cooling domain.
+                        </p>
+
+                    </div>
+
+
+                    <div class="method-connector">→</div>
+
+
+                    <div class="method-step">
+
+                        <div class="method-number">02</div>
+
+                        <h3>CFD Simulation</h3>
+
+                        <p>
+                            Evaluate thermal and coolant-flow
+                            behaviour using ANSYS Fluent.
+                        </p>
+
+                    </div>
+
+
+                    <div class="method-connector">→</div>
+
+
+                    <div class="method-step">
+
+                        <div class="method-number">03</div>
+
+                        <h3>Dataset</h3>
+
+                        <p>
+                            Collect temperature and flow-related
+                            simulation data for different operating
+                            conditions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="method-connector">→</div>
+
+
+                    <div class="method-step">
+
+                        <div class="method-number">04</div>
+
+                        <h3>ML Prediction</h3>
+
+                        <p>
+                            Use the generated simulation data as the
+                            basis for predictive Machine Learning
+                            models.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CFD RESULTS ================= -->
+
+        <section class="project-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">05</span>
+                    <div>
+                        <div class="technical-label">CFD RESULTS</div>
+                        <h2>Thermal & Flow Fields</h2>
+                    </div>
+                </div>
+
+
+                <p class="section-intro">
+                    CFD simulations were performed to investigate
+                    thermal and flow characteristics of the battery
+                    module. The temperature and coolant velocity
+                    distributions are used to assess the cooling
+                    behaviour of the system.
+                </p>
+
+
+                <div class="results-grid">
+
+                    <!-- Temperature -->
+
+                    <figure class="result-card">
+
+                        <div class="result-image">
+
+                            <img
+                                src="images/crosssection.png"
+                                alt="Temperature distribution across the EV battery module"
+                                loading="lazy">
+
+                        </div>
+
+                        <figcaption>
+
+                            <span class="figure-number">
+                                FIG. 01
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Temperature Distribution
+                                </strong>
+
+                                <p>
+                                    Cross-sectional temperature
+                                    distribution across the battery
+                                    module.
+                                </p>
+                            </div>
+
+                        </figcaption>
+
+                    </figure>
+
+
+                    <!-- Velocity -->
+
+                    <figure class="result-card">
+
+                        <div class="result-image">
+
+                            <img
+                                src="images/velocity.png"
+                                alt="Coolant velocity distribution within the battery module"
+                                loading="lazy">
+
+                        </div>
+
+                        <figcaption>
+
+                            <span class="figure-number">
+                                FIG. 02
+                            </span>
+
+                            <div>
+                                <strong>
+                                    Coolant Velocity Distribution
+                                </strong>
+
+                                <p>
+                                    Flow-field distribution of the
+                                    coolant within the battery module.
+                                </p>
+                            </div>
+
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ML FRAMEWORK ================= -->
+
+        <section class="project-section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">06</span>
+                    <div>
+                        <div class="technical-label">MACHINE LEARNING</div>
+                        <h2>From CFD Data to Predictive Models</h2>
+                    </div>
+                </div>
+
+
+                <div class="content-grid">
+
+                    <div class="content-main">
+
+                        <p class="large-text">
+                            High-fidelity CFD simulations provide
+                            detailed information about the thermal
+                            response of the battery module.
+                        </p>
+
+                        <p>
+                            The proposed framework uses simulation
+                            datasets to investigate Machine Learning
+                            models capable of predicting cooling
+                            requirements for different battery
+                            operating conditions.
+                        </p>
+
+                        <p>
+                            The long-term objective is to reduce the
+                            dependence on repeated computationally
+                            expensive simulations when evaluating
+                            different operating conditions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="technical-panel">
+
+                        <div class="panel-header">
+                            <span>ML PIPELINE</span>
+                            <span>02</span>
+                        </div>
+
+                        <div class="pipeline">
+
+                            <div class="pipeline-node">
+                                <span>INPUT</span>
+                                <strong>
+                                    Operating Conditions
+                                </strong>
+                            </div>
+
+                            <div class="pipeline-arrow">
+                                ↓
+                            </div>
+
+                            <div class="pipeline-node">
+                                <span>DATA</span>
+                                <strong>
+                                    CFD Dataset
+                                </strong>
+                            </div>
+
+                            <div class="pipeline-arrow">
+                                ↓
+                            </div>
+
+                            <div class="pipeline-node">
+                                <span>MODEL</span>
+                                <strong>
+                                    ML Prediction
+                                </strong>
+                            </div>
+
+                            <div class="pipeline-arrow">
+                                ↓
+                            </div>
+
+                            <div class="pipeline-node">
+                                <span>OUTPUT</span>
+                                <strong>
+                                    Cooling Requirement
+                                </strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= TOOLS ================= -->
+
+        <section class="project-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">07</span>
+                    <div>
+                        <div class="technical-label">TOOLS & TECHNOLOGIES</div>
+                        <h2>Engineering Toolbox</h2>
+                    </div>
+                </div>
+
+
+                <div class="tool-grid">
+
+                    <div class="tool-card">
+                        <span class="tool-number">01</span>
+                        <h3>ANSYS Fluent</h3>
+                        <p>
+                            Computational Fluid Dynamics and thermal
+                            flow analysis.
+                        </p>
+                    </div>
+
+
+                    <div class="tool-card">
+                        <span class="tool-number">02</span>
+                        <h3>Python</h3>
+                        <p>
+                            Data processing, analysis and
+                            computational workflows.
+                        </p>
+                    </div>
+
+
+                    <div class="tool-card">
+                        <span class="tool-number">03</span>
+                        <h3>Machine Learning</h3>
+                        <p>
+                            Predictive modelling using simulation
+                            datasets.
+                        </p>
+                    </div>
+
+
+                    <div class="tool-card">
+                        <span class="tool-number">04</span>
+                        <h3>CFD</h3>
+                        <p>
+                            Thermal and coolant-flow analysis of
+                            battery modules.
+                        </p>
+                    </div>
+
+
+                    <div class="tool-card">
+                        <span class="tool-number">05</span>
+                        <h3>Data Analysis</h3>
+                        <p>
+                            Processing and visualization of
+                            simulation results.
+                        </p>
+                    </div>
+
+
+                    <div class="tool-card">
+                        <span class="tool-number">06</span>
+                        <h3>Visualization</h3>
+                        <p>
+                            Interpretation of thermal and velocity
+                            distributions.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= EXPECTED OUTCOMES ================= -->
+
+        <section class="project-section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-number">08</span>
+                    <div>
+                        <div class="technical-label">EXPECTED OUTCOMES</div>
+                        <h2>Engineering Impact</h2>
+                    </div>
+                </div>
+
+
+                <div class="impact-grid">
+
+                    <div class="impact-card">
+                        <strong>01</strong>
+                        <h3>Thermal Performance</h3>
+                        <p>
+                            Improve understanding of battery thermal
+                            behaviour and cooling performance.
+                        </p>
+                    </div>
+
+
+                    <div class="impact-card">
+                        <strong>02</strong>
+                        <h3>Thermal Uniformity</h3>
+                        <p>
+                            Investigate strategies for maintaining
+                            more uniform battery temperatures.
+                        </p>
+                    </div>
+
+
+                    <div class="impact-card">
+                        <strong>03</strong>
+                        <h3>Predictive Cooling</h3>
+                        <p>
+                            Develop predictive approaches for
+                            estimating coolant flow requirements.
+                        </p>
+                    </div>
+
+
+                    <div class="impact-card">
+                        <strong>04</strong>
+                        <h3>Computational Efficiency</h3>
+                        <p>
+                            Explore the potential for ML models to
+                            reduce repeated CFD computational effort.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= STATUS ================= -->
+
+        <section class="project-section">
+            <div class="container">
+
+                <div class="notice-panel">
+
+                    <div class="notice-icon">
+                        ◉
+                    </div>
+
+                    <div>
+
+                        <div class="technical-label">
+                            PROJECT STATUS
+                        </div>
+
+                        <h2>
+                            Ongoing Research Project at IIT Guwahati
+                        </h2>
+
+                        <p>
+                            The project is currently being developed
+                            as an ongoing research project. The CFD
+                            simulations and predictive modelling
+                            framework are part of the continuing
+                            investigation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ENGINEERING TAKEAWAY ================= -->
+
+        <section class="project-section section-alt">
+            <div class="container">
+
+                <div class="takeaway-panel">
+
+                    <div class="technical-label">
+                        ENGINEERING TAKEAWAY
+                    </div>
+
+                    <h2>
+                        Combining physics-based simulation
+                        with data-driven prediction.
+                    </h2>
+
+                    <p>
+                        This project brings together CFD-based thermal
+                        analysis and Machine Learning to investigate
+                        how computational simulation can support
+                        predictive thermal management of EV battery
+                        systems.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= BACK ================= -->
+
+        <section class="project-navigation">
+
+            <div class="container">
+
+                <a href="personal.html" class="back-link">
+                    <span>←</span>
+                    Back to Personal Projects
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <div>
+                <strong>SAI KIRAN</strong>
+                <span>
+                    Mechanical Engineering · Fluid & Thermal Systems
+                </span>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+                <a href="personal.html">Projects</a>
+                <a href="index.html#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                © 2026 Sai Kiran. Engineering portfolio.
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>
